@@ -1,0 +1,17 @@
+<style>
+    @keyframes blinking {
+      0% {
+        background-image: url('image.jpg');
+        border: 3px solid #666;
+      }
+      100% {
+        background-image: url('image2.jpg');
+        border: 3px solid #666;
+      }
+    }
+    #blink {
+      width: 800px;
+      height: 800px;
+      animation: blinking 1s infinite;
+    }
+}
